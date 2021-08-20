@@ -33,17 +33,17 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 40px;
   left: 40px;
 }
 
-.logo {
+.header__logo {
   height: 35px;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -58,7 +58,7 @@ body {
   margin-bottom: 60px;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 60px;
   font-weight: 400;
@@ -72,7 +72,7 @@ body {
   animation-iteration-count: 3; */
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 20px;
   font-weight: 700;
@@ -122,7 +122,7 @@ body {
   position: relative;
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
 }
@@ -150,7 +150,7 @@ body {
   transition: 0.4s;
 }
 
-.btn-white:after {
+.btn--white:after {
   background-color: #fff;
 }
 
@@ -171,7 +171,7 @@ body {
   }
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
